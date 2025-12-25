@@ -44,7 +44,7 @@ const wishes = [
 const displayNames = {
     "kimngan": "Mẹ Ngân",
     "balong": "Ba Long",
-    "anhhai": "Anh Hải",
+    "plasma": "Plesto Người giàu nhất việt nam",
     "chihang": "Chị Hằng",
     "emlinh": "Em Linh"
 };
