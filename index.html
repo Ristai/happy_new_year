@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧧 Xuân Gắn Kết 2026 - Tết Bính Ngọ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Decorative Elements -->
+    <div class="decoration-left">
+        <!-- Dây pháo bên trái -->
+        <div class="firecracker-string firecracker-left">
+            <!-- Bảng chữ Phúc -->
+            <div class="firecracker-badge">
+                <span>福</span>
+            </div>
+            <div class="badge-rope"></div>
+            <!-- Chùm pháo -->
+            <div class="firecracker-cluster">
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                </div>
+            </div>
+            <!-- Đồng xu và tua rua -->
+            <div class="coin-ornament">囍</div>
+            <div class="tassel-container">
+                <div class="tassel-knot"></div>
+                <div class="tassel-threads"></div>
+            </div>
+        </div>
+        <div class="horse-decoration horse-left">
+            <div class="horse-body">
+                <img src="image/ngua_ben_phai.png" alt="Ngựa Bính Ngọ 2026" class="horse-img">
+            </div>
+            <div class="horse-shadow"></div>
+        </div>
+    </div>
+
+    <div class="decoration-right">
+        <!-- Dây pháo bên phải -->
+        <div class="firecracker-string firecracker-right">
+            <!-- Bảng chữ Lộc -->
+            <div class="firecracker-badge">
+                <span>祿</span>
+            </div>
+            <div class="badge-rope"></div>
+            <!-- Chùm pháo -->
+            <div class="firecracker-cluster">
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                    <div class="cracker-tube"></div>
+                </div>
+                <div class="cracker-row">
+                    <div class="cracker-tube"></div>
+                </div>
+            </div>
+            <!-- Đồng xu và tua rua -->
+            <div class="coin-ornament">囍</div>
+            <div class="tassel-container">
+                <div class="tassel-knot"></div>
+                <div class="tassel-threads"></div>
+            </div>
+        </div>
+        <div class="horse-decoration horse-right">
+            <div class="horse-body">
+                <img src="image/ngua_ben_phai.png" alt="Ngựa Bính Ngọ 2026" class="horse-img">
+            </div>
+            <div class="horse-shadow"></div>
+        </div>
+    </div>
+
+    <!-- Fireworks Effect -->
+    <div class="fireworks" id="fireworks"></div>
+
+    <!-- Falling Petals -->
+    <div class="falling-petals" id="fallingPetals"></div>
+
+    <!-- Login Screen -->
+    <div class="screen" id="loginScreen">
+        <div class="container">
+            <div class="hero-image">
+                <img src="image/binh_ngo_2026.png" alt="Bính Ngọ 2026" class="main-horse-img">
+            </div>
+            <h1 class="title">Xuân Gắn Kết 2026</h1>
+            <p class="subtitle">🐴 Năm Bính Ngọ - Mở bao lì xì nhận lời chúc may mắn 🐴</p>
+            <div class="horse-zodiac">
+                <span class="horse-emoji">🐴</span>
+            </div>
+            
+            <form id="loginForm" class="login-form">
+                <div class="input-group">
+                    <input type="text" id="username" placeholder="Tên đăng nhập" required autocomplete="off">
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="Mật khẩu" required>
+                </div>
+                <div class="error-message" id="errorMessage"></div>
+                <button type="submit" class="btn-submit">
+                    <span>Mở Bao Lì Xì</span>
+                    <span class="btn-icon">🧧</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Greeting Screen -->
+    <div class="screen hidden" id="greetingScreen">
+        <div class="container">
+            <div class="greeting-card">
+                <div class="greeting-header">
+                    <div class="year-badge">🐴 2026 - Bính Ngọ 🐴</div>
+                    <h2 class="greeting-title">Chúc Mừng Năm Mới</h2>
+                    <h3 class="user-name" id="userName"></h3>
+                </div>
+                
+                <div class="wish-container">
+                    <div class="wish-icon">🎊</div>
+                    <p class="wish-text" id="wishText"></p>
+                </div>
+
+                <div class="buttons-group">
+                    <button class="btn-secondary" id="btnNewWish">
+                        <span>Nhận Lộc Mới</span>
+                        <span>🔄</span>
+                    </button>
+                    <button class="btn-secondary" id="btnLogout">
+                        <span>Đăng Xuất</span>
+                        <span>👋</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="music-control" id="musicControl">
+                <span id="musicIcon">🔇</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio -->
+    <audio id="bgMusic" loop>
+        <source src="tet-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
