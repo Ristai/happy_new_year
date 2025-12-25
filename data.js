@@ -2,7 +2,7 @@
 const accounts = {
     "kimngan": "kimngan123",
     "balong": "xuanlong1970",
-    "anhhai": "123456",
+    "plasma": "plesto2004",
     "chihang": "123456",
     "emlinh": "123456"
 };
